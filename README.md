@@ -35,8 +35,14 @@ Scripts:
 
     1- npm run test
         to do unit testing with jasmine.
+        
     2- npm run start
         to test the api endpoint by running this command then visiting the endpoint with the query parameters of the image name and the width and height for the resizing.
+
+        then go to the browser and visit the endpoint url of local host with the query parameters as an example:
+
+        http://localhost:3000/api/images?filename=encenadaport&width=200&height=200
+
     3- npm run build
         to transpile the typescript files into javascript ones.
 
